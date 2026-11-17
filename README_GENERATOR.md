@@ -51,7 +51,7 @@ python -c "import working; working.main(filter='*_10_mm_depth')"
 
 ## Taxonomy and file ownership
 
-Spacers: `hardware / spacer / <nominal_size> / nylon_white / <od>_mm_outer_diameter / <depth>_mm_depth`. The editable `series_definitions` dictionaries in `working_oomp_populate_spacer.py` choose exactly one OD per screw size: M3 = 7 mm, M4 = 8 mm, M5 = 10 mm and M6 = 13 mm. Each has its own explicit bore, depth list and source references. Manual spacer entries use `type_name: spacer`, `nominal_size: m4`, and `depth_mm: 18`; omitted nominal_size remains M3 for compatibility.
+Spacers: `hardware / spacer / <nominal_size> / nylon_white / <od>_mm_outer_diameter / <depth>_mm_depth`. The editable `series_definitions` dictionaries in `working_oomp_populate_spacer.py` choose exactly one OD per screw size: M3 = 7 mm, M4 = 7 mm, M5 = 9 mm and M6 = 11 mm. Each has its own explicit bore, depth list and source references. Manual spacer entries use `type_name: spacer`, `nominal_size: m4`, and `depth_mm: 18`; omitted nominal_size remains M3 for compatibility.
 
 Standoffs: `hardware / standoff / <nominal_size> / <connection_type> / hexagon / nylon_white / <width>_mm_across_flats / [<stud>_mm_stud_length /] <depth>_mm_depth`. `working_oomp_populate_standoff.series_definitions()` contains the editable diameter, pitch, flats, stud length and tapping choices for M2.5, M3, M4, M5 and M6. M2.5 uses `m2_5` in taxonomy and IDs, matching the bolt catalogue, and `m2.5` for displayed nominal_size.
 

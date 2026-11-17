@@ -13,7 +13,7 @@ Representative 10 mm parts rendered from the actual full-detail geometry in Blen
 
 ## Details
 
-The catalogue contains **$count part records**. Round spacers use one outside-diameter series per screw size: **M3: 7 mm; M4: 8 mm; M5: 10 mm; M6: 13 mm**. Their plain clearance bores are **3.2, 4.3, 5.3 and 6.4 mm**, respectively. Hex standoffs use **M2.5 x 0.45, M3 x 0.5, M4 x 0.7, M5 x 0.8 and M6 x 1 threads**, with one hex-body and stud-length series per size as listed below. Both families are white nylon.
+The catalogue contains **$count part records**. Round spacers use one outside-diameter series per screw size: **M3: 7 mm; M4: 7 mm; M5: 9 mm; M6: 11 mm**. Their plain clearance bores are **3.2, 4.3, 5.3 and 6.4 mm**, respectively. Hex standoffs use **M2.5 x 0.45, M3 x 0.5, M4 x 0.7, M5 x 0.8 and M6 x 1 threads**, with one hex-body and stud-length series per size as listed below. Both families are white nylon.
 
 These are generic catalogue models. Tapped-to-tapped models use a continuous through thread. Stud-to-tapped models have one stud and an assumed blind tapped cavity, limited to body depth minus 1 mm. Stud-to-stud models have two studs and a solid body. Stud length is 8 mm for M2.5, 6 mm for M3/M4, 8 mm for M5 and 10 mm for M6. Stud length is additional to body depth. Bought parts can have different tapping depths and construction; the matching depth ranges are catalogue choices, not a claim that every variant is stocked. Small chamfers and the nylon finish are visual approximations. [Dimension evidence and assumptions](source_file/dimension/README.md) distinguish confirmed supplier dimensions from catalogue choices.
 

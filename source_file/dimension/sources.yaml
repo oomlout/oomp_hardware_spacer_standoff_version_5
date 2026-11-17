@@ -146,3 +146,19 @@ sources:
       0.8 and M6 x 1.0.
     limits: Used for thread-pitch evidence only; body flats, studs and tapping depths
       follow the separately cited nylon examples.
+  user_spacer_od_selection:
+    title: User-specified spacer outside diameters
+    url: ../../source_file/dimension/README.md
+    checked: '2026-11-17'
+    supports: User selected M4 = 7 mm OD, M5 = 9 mm OD and M6 = 11 mm OD, retaining
+      M3 = 7 mm OD.
+    limits: Catalogue specification; no supplier SKU or claim of most-common online
+      availability is established for these ODs.
+  pencom_spacer_bores_depths:
+    title: Pencom metric spacer clearance bores and depth options
+    url: https://www.pencomsf.com/site/assets/product-catalogs/spacers/rsp-round-spacers-catalog.pdf
+    checked: '2026-11-17'
+    supports: Documents 4.3/5.3/6.4 mm clearance bores, nylon options and the selected
+      3-30 mm depths.
+    limits: Used for bore and depth context only; its 8/10/13 mm OD series does not
+      verify the selected 7/9/11 mm ODs.

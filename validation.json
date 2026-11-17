@@ -37,154 +37,154 @@
       "volume_mm3": 242.63102037596664
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_10_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_10_mm_depth",
       "status": "passed",
-      "volume_mm3": 356.2648160726885
+      "volume_mm3": 238.58439888121325
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_12_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_12_mm_depth",
       "status": "passed",
-      "volume_mm3": 427.70072877484716
+      "volume_mm3": 286.47518686581697
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_15_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_15_mm_depth",
       "status": "passed",
-      "volume_mm3": 534.8545978280853
+      "volume_mm3": 358.31136884272263
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_20_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_20_mm_depth",
       "status": "passed",
-      "volume_mm3": 713.4443768334695
+      "volume_mm3": 478.0383362338536
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_25_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_25_mm_depth",
       "status": "passed",
-      "volume_mm3": 892.0341585888664
+      "volume_mm3": 597.7653061953631
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_30_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_30_mm_depth",
       "status": "passed",
-      "volume_mm3": 1070.623940344263
+      "volume_mm3": 717.4922761568723
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_3_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_3_mm_depth",
       "status": "passed",
-      "volume_mm3": 106.23912128330703
+      "volume_mm3": 70.96664060327424
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_5_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_5_mm_depth",
       "status": "passed",
-      "volume_mm3": 177.67503431729156
+      "volume_mm3": 118.85742891970382
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_6_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_6_mm_depth",
       "status": "passed",
-      "volume_mm3": 213.39299066837097
+      "volume_mm3": 142.80282291200567
     },
     {
-      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_8_mm_depth",
+      "id": "hardware_spacer_m4_nylon_white_7_mm_outer_diameter_8_mm_depth",
       "status": "passed",
-      "volume_mm3": 284.82890337052964
+      "volume_mm3": 190.69361089660939
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_10_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_10_mm_depth",
       "status": "passed",
-      "volume_mm3": 563.2459409386964
+      "volume_mm3": 414.1720206932623
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_12_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_12_mm_depth",
       "status": "passed",
-      "volume_mm3": 676.1212760454822
+      "volume_mm3": 497.22353047707793
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_15_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_15_mm_depth",
       "status": "passed",
-      "volume_mm3": 845.4342787056609
+      "volume_mm3": 621.8007951528015
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_20_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_20_mm_depth",
       "status": "passed",
-      "volume_mm3": 1127.6226130639507
+      "volume_mm3": 829.4295663833001
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_25_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_25_mm_depth",
       "status": "passed",
-      "volume_mm3": 1409.810950830915
+      "volume_mm3": 1037.0583408428395
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_30_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_30_mm_depth",
       "status": "passed",
-      "volume_mm3": 1691.9992885978797
+      "volume_mm3": 1244.6871153023787
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_3_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_3_mm_depth",
       "status": "passed",
-      "volume_mm3": 168.1822676582723
+      "volume_mm3": 123.49173604323391
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_5_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_5_mm_depth",
       "status": "passed",
-      "volume_mm3": 281.0576031717319
+      "volume_mm3": 206.54324623372335
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_6_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_6_mm_depth",
       "status": "passed",
-      "volume_mm3": 337.4952707251248
+      "volume_mm3": 248.06900112563108
     },
     {
-      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_8_mm_depth",
+      "id": "hardware_spacer_m5_nylon_white_9_mm_outer_diameter_8_mm_depth",
       "status": "passed",
-      "volume_mm3": 450.37060583191055
+      "volume_mm3": 331.1205109094467
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_10_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_10_mm_depth",
       "status": "passed",
-      "volume_mm3": 1003.5015358803929
+      "volume_mm3": 626.8699008430603
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_12_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_12_mm_depth",
       "status": "passed",
-      "volume_mm3": 1204.4827402942171
+      "volume_mm3": 752.506695525373
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_15_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_15_mm_depth",
       "status": "passed",
-      "volume_mm3": 1505.9545469149532
+      "volume_mm3": 940.9618875488418
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_20_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_20_mm_depth",
       "status": "passed",
-      "volume_mm3": 2008.4075536726014
+      "volume_mm3": 1255.0538703369828
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_25_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_25_mm_depth",
       "status": "passed",
-      "volume_mm3": 2510.8605647071618
+      "volume_mm3": 1569.1458570427637
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_30_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_30_mm_depth",
       "status": "passed",
-      "volume_mm3": 3013.3135757417217
+      "volume_mm3": 1883.2378437485447
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_3_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_3_mm_depth",
       "status": "passed",
-      "volume_mm3": 300.067319943002
+      "volume_mm3": 187.14111896596023
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_5_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_5_mm_depth",
       "status": "passed",
-      "volume_mm3": 501.0485248458328
+      "volume_mm3": 312.7779141372793
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_6_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_6_mm_depth",
       "status": "passed",
-      "volume_mm3": 601.5391270527447
+      "volume_mm3": 375.5963114784354
     },
     {
-      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_8_mm_depth",
+      "id": "hardware_spacer_m6_nylon_white_11_mm_outer_diameter_8_mm_depth",
       "status": "passed",
-      "volume_mm3": 802.5203314665687
+      "volume_mm3": 501.23310616074804
     },
     {
       "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_10_mm_depth",

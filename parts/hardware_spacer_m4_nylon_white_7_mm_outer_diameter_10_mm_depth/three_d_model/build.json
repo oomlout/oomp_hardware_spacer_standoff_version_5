@@ -1,0 +1,40 @@
+{
+  "fingerprint": "e09f470f69c5a4f33e52cbddc026d78f390e4b5c24bac59ee18faa8522f8a3f2",
+  "metrics": {
+    "full": {
+      "watertight": true,
+      "volume_mm3": 238.58439533235946,
+      "bounds_mm": [
+        [
+          -3.5,
+          -3.5,
+          0.0
+        ],
+        [
+          3.5,
+          3.5,
+          10.0
+        ]
+      ],
+      "faces": 1536
+    },
+    "display": {
+      "watertight": true,
+      "volume_mm3": 238.58439533235946,
+      "bounds_mm": [
+        [
+          -3.5,
+          -3.5,
+          0.0
+        ],
+        [
+          3.5,
+          3.5,
+          10.0
+        ]
+      ],
+      "faces": 1536
+    }
+  },
+  "rendered": true
+}

@@ -8,9 +8,9 @@ White nylon round clearance spacers for M3, M4, M5 and M6 assemblies, plus M2.5,
 **[Browse the hardware catalogue](navigation_oobb/README.md)** | [All part folders](parts/)
 
 [<img src="parts/hardware_spacer_m3_nylon_white_7_mm_outer_diameter_10_mm_depth/three_d_model/readme_isometric.png" alt="M3 x 10 mm round spacer, white nylon" width="360">](parts/hardware_spacer_m3_nylon_white_7_mm_outer_diameter_10_mm_depth/README.md)
-[<img src="parts/hardware_spacer_m4_nylon_white_8_mm_outer_diameter_10_mm_depth/three_d_model/readme_isometric.png" alt="M4 x 10 mm round spacer, white nylon" width="360">](parts/hardware_spacer_m4_nylon_white_8_mm_outer_diameter_10_mm_depth/README.md)
-[<img src="parts/hardware_spacer_m5_nylon_white_10_mm_outer_diameter_10_mm_depth/three_d_model/readme_isometric.png" alt="M5 x 10 mm round spacer, white nylon" width="360">](parts/hardware_spacer_m5_nylon_white_10_mm_outer_diameter_10_mm_depth/README.md)
-[<img src="parts/hardware_spacer_m6_nylon_white_13_mm_outer_diameter_10_mm_depth/three_d_model/readme_isometric.png" alt="M6 x 10 mm round spacer, white nylon" width="360">](parts/hardware_spacer_m6_nylon_white_13_mm_outer_diameter_10_mm_depth/README.md)
+[<img src="parts/hardware_spacer_m4_nylon_white_7_mm_outer_diameter_10_mm_depth/three_d_model/readme_isometric.png" alt="M4 x 10 mm round spacer, white nylon" width="360">](parts/hardware_spacer_m4_nylon_white_7_mm_outer_diameter_10_mm_depth/README.md)
+[<img src="parts/hardware_spacer_m5_nylon_white_9_mm_outer_diameter_10_mm_depth/three_d_model/readme_isometric.png" alt="M5 x 10 mm round spacer, white nylon" width="360">](parts/hardware_spacer_m5_nylon_white_9_mm_outer_diameter_10_mm_depth/README.md)
+[<img src="parts/hardware_spacer_m6_nylon_white_11_mm_outer_diameter_10_mm_depth/three_d_model/readme_isometric.png" alt="M6 x 10 mm round spacer, white nylon" width="360">](parts/hardware_spacer_m6_nylon_white_11_mm_outer_diameter_10_mm_depth/README.md)
 [<img src="parts/hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_10_mm_depth/three_d_model/readme_isometric.png" alt="M2.5 x 10 mm stud to tapped hex standoff, white nylon" width="360">](parts/hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_10_mm_depth/README.md)
 [<img src="parts/hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_10_mm_depth/three_d_model/readme_isometric.png" alt="M3 x 10 mm stud to stud hex standoff, white nylon" width="360">](parts/hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_10_mm_depth/README.md)
 [<img src="parts/hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_10_mm_depth/three_d_model/readme_isometric.png" alt="M3 x 10 mm stud to tapped hex standoff, white nylon" width="360">](parts/hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_10_mm_depth/README.md)
@@ -23,7 +23,7 @@ Representative 10 mm parts rendered from the actual full-detail geometry in Blen
 
 ## Details
 
-The catalogue contains **157 part records**. Round spacers use one outside-diameter series per screw size: **M3: 7 mm; M4: 8 mm; M5: 10 mm; M6: 13 mm**. Their plain clearance bores are **3.2, 4.3, 5.3 and 6.4 mm**, respectively. Hex standoffs use **M2.5 x 0.45, M3 x 0.5, M4 x 0.7, M5 x 0.8 and M6 x 1 threads**, with one hex-body and stud-length series per size as listed below. Both families are white nylon.
+The catalogue contains **157 part records**. Round spacers use one outside-diameter series per screw size: **M3: 7 mm; M4: 7 mm; M5: 9 mm; M6: 11 mm**. Their plain clearance bores are **3.2, 4.3, 5.3 and 6.4 mm**, respectively. Hex standoffs use **M2.5 x 0.45, M3 x 0.5, M4 x 0.7, M5 x 0.8 and M6 x 1 threads**, with one hex-body and stud-length series per size as listed below. Both families are white nylon.
 
 These are generic catalogue models. Tapped-to-tapped models use a continuous through thread. Stud-to-tapped models have one stud and an assumed blind tapped cavity, limited to body depth minus 1 mm. Stud-to-stud models have two studs and a solid body. Stud length is 8 mm for M2.5, 6 mm for M3/M4, 8 mm for M5 and 10 mm for M6. Stud length is additional to body depth. Bought parts can have different tapping depths and construction; the matching depth ranges are catalogue choices, not a claim that every variant is stocked. Small chamfers and the nylon finish are visual approximations. [Dimension evidence and assumptions](source_file/dimension/README.md) distinguish confirmed supplier dimensions from catalogue choices.
 
@@ -32,9 +32,9 @@ These are generic catalogue models. Tapped-to-tapped models use a continuous thr
 | Family | Body depths (mm) | Browse |
 | --- | --- | --- |
 | Round M3 clearance spacer, 7 mm OD / 3.2 mm bore | 3, 5, 6, 8, 10, 12, 15 | [M3 spacers](navigation_oobb/hardware/spacer/m3/README.md) |
-| Round M4 clearance spacer, 8 mm OD / 4.3 mm bore | 3, 5, 6, 8, 10, 12, 15, 20, 25, 30 | [M4 spacers](navigation_oobb/hardware/spacer/m4/README.md) |
-| Round M5 clearance spacer, 10 mm OD / 5.3 mm bore | 3, 5, 6, 8, 10, 12, 15, 20, 25, 30 | [M5 spacers](navigation_oobb/hardware/spacer/m5/README.md) |
-| Round M6 clearance spacer, 13 mm OD / 6.4 mm bore | 3, 5, 6, 8, 10, 12, 15, 20, 25, 30 | [M6 spacers](navigation_oobb/hardware/spacer/m6/README.md) |
+| Round M4 clearance spacer, 7 mm OD / 4.3 mm bore | 3, 5, 6, 8, 10, 12, 15, 20, 25, 30 | [M4 spacers](navigation_oobb/hardware/spacer/m4/README.md) |
+| Round M5 clearance spacer, 9 mm OD / 5.3 mm bore | 3, 5, 6, 8, 10, 12, 15, 20, 25, 30 | [M5 spacers](navigation_oobb/hardware/spacer/m5/README.md) |
+| Round M6 clearance spacer, 11 mm OD / 6.4 mm bore | 3, 5, 6, 8, 10, 12, 15, 20, 25, 30 | [M6 spacers](navigation_oobb/hardware/spacer/m6/README.md) |
 | M2.5 tapped to tapped hex standoff, 5 mm A/F | 6, 8, 10, 12, 15, 20, 25, 30 | [tapped_to_tapped](navigation_oobb/hardware/standoff/m2_5/tapped_to_tapped/README.md) |
 | M2.5 stud to tapped hex standoff, 5 mm A/F, 8 mm studs | 6, 8, 10, 12, 15, 20, 25, 30 | [stud_to_tapped](navigation_oobb/hardware/standoff/m2_5/stud_to_tapped/README.md) |
 | M2.5 stud to stud hex standoff, 5 mm A/F, 8 mm studs | 6, 8, 10, 12, 15, 20, 25, 30 | [stud_to_stud](navigation_oobb/hardware/standoff/m2_5/stud_to_stud/README.md) |

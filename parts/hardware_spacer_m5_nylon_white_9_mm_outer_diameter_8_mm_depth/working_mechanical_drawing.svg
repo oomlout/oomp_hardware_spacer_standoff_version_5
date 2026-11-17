@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297"><title>hardware_spacer_m5_nylon_white_9_mm_outer_diameter_8_mm_depth</title>
+<rect width="210" height="297" fill="white"/>
+<g font-family="DejaVu Sans" stroke="#1a1a1a" stroke-width="0.45" fill="none">
+<rect x="4" y="4" width="202" height="289" rx="3.5"/>
+<text x="14" y="15" fill="#777777" stroke="none" font-size="3.2" text-anchor="start" font-weight="normal" transform="rotate(0 14 15)">OOMLOUT / OOMP</text>
+<text x="196" y="15" fill="#777777" stroke="none" font-size="3.2" text-anchor="end" font-weight="normal" transform="rotate(0 196 15)">F238FC</text>
+<text x="14" y="47" fill="#1a1a1a" stroke="none" font-size="17" text-anchor="start" font-weight="bold" transform="rotate(0 14 47)">M5 x 8 mm</text>
+<text x="14" y="59" fill="#777777" stroke="none" font-size="4.5" text-anchor="start" font-weight="normal" transform="rotate(0 14 59)">HARDWARE / SPACER</text>
+<text x="14" y="70" fill="#777777" stroke="none" font-size="3.5" text-anchor="start" font-weight="normal" transform="rotate(0 14 70)">ROUND CLEARANCE SPACER / WHITE NYLON</text>
+<line x1="14" y1="79" x2="196" y2="79" stroke-dasharray=""/>
+<text x="14" y="88" fill="#1a1a1a" stroke="none" font-size="5.2" text-anchor="start" font-weight="bold" transform="rotate(0 14 88)">DIMENSIONS</text>
+<text x="196" y="88" fill="#777777" stroke="none" font-size="3.2" text-anchor="end" font-weight="normal" transform="rotate(0 196 88)">4:1 / mm / PRINT AT 100%</text>
+<text x="54" y="101" fill="#777777" stroke="none" font-size="3.2" text-anchor="middle" font-weight="bold" transform="rotate(0 54 101)">END VIEW</text>
+<text x="151" y="101" fill="#777777" stroke="none" font-size="3.2" text-anchor="middle" font-weight="bold" transform="rotate(0 151 101)">SIDE VIEW</text>
+<circle cx="54" cy="153" r="18.0" fill="#fafafa"/>
+<circle cx="54" cy="153" r="10.6" fill="white"/>
+<rect x="133.0" y="137.0" width="36" height="32.0" fill="#fafafa"/>
+<line x1="140.4" y1="137.0" x2="140.4" y2="169.0" stroke-dasharray="2 1"/>
+<line x1="161.6" y1="137.0" x2="161.6" y2="169.0" stroke-dasharray="2 1"/>
+<g stroke="#999999" stroke-width="0.2">
+<line x1="32.0" y1="153" x2="76.0" y2="153" stroke-dasharray="5 1 1 1"/>
+<line x1="54" y1="131.0" x2="54" y2="175.0" stroke-dasharray="5 1 1 1"/>
+<line x1="151" y1="133.0" x2="151" y2="173.0" stroke-dasharray="5 1 1 1"/>
+</g>
+<line x1="36.0" y1="153" x2="36.0" y2="124.0" stroke-dasharray=""/>
+<line x1="72.0" y1="153" x2="72.0" y2="124.0" stroke-dasharray=""/>
+<line x1="36.0" y1="126.0" x2="72.0" y2="126.0" stroke-dasharray=""/><polygon fill="#1a1a1a" points="36.0,126.0 38.0,126.6 38.0,125.4"/><polygon fill="#1a1a1a" points="72.0,126.0 70.0,125.4 70.0,126.6"/><text x="54.0" y="123.0" fill="#1a1a1a" stroke="none" font-size="3.2" text-anchor="middle" font-weight="normal" transform="rotate(0 54.0 123.0)">OD 9</text>
+<line x1="169.0" y1="137.0" x2="180.0" y2="137.0" stroke-dasharray=""/>
+<line x1="169.0" y1="169.0" x2="180.0" y2="169.0" stroke-dasharray=""/>
+<line x1="178.0" y1="137.0" x2="178.0" y2="169.0" stroke-dasharray=""/><polygon fill="#1a1a1a" points="178.0,137.0 177.4,139.0 178.6,139.0"/><polygon fill="#1a1a1a" points="178.0,169.0 178.6,167.0 177.4,167.0"/><text x="183.0" y="153.0" fill="#1a1a1a" stroke="none" font-size="3.2" text-anchor="middle" font-weight="normal" transform="rotate(-90 183.0 153.0)">DEPTH 8</text>
+<line x1="64.6" y1="153" x2="77.0" y2="181.0" stroke-dasharray=""/>
+<text x="54" y="189.0" fill="#1a1a1a" stroke="none" font-size="3.2" text-anchor="middle" font-weight="normal" transform="rotate(0 54 189.0)">ID 5.3 / PLAIN BORE</text>
+<text x="151" y="211" fill="#777777" stroke="none" font-size="2.5" text-anchor="middle" font-weight="normal" transform="rotate(0 151 211)">HIDDEN BORE SHOWN DASHED</text>
+<line x1="14" y1="223" x2="196" y2="223" stroke-dasharray=""/>
+<text x="14" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 14 237)">5.3 mm</text>
+<text x="14" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 14 245)">CLEARANCE ID</text>
+<text x="60" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 60 237)">9 mm</text>
+<text x="60" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 60 245)">OUTER DIAMETER</text>
+<text x="106" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 106 237)">8 mm</text>
+<text x="106" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 106 245)">BODY DEPTH</text>
+<text x="152" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 152 237)">Nylon</text>
+<text x="152" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 152 245)">WHITE</text>
+<line x1="14" y1="253" x2="196" y2="253" stroke-dasharray=""/>
+<text x="14" y="261" fill="#777777" stroke="none" font-size="2.6" text-anchor="start" font-weight="normal" transform="rotate(0 14 261)">GENERIC CATALOGUE DIMENSIONS / NOT A MANUFACTURING DRAWING</text>
+<text x="14" y="267" fill="#1a1a1a" stroke="none" font-size="2.7" text-anchor="start" font-weight="normal" transform="rotate(0 14 267)">M5 screw clearance. Small model chamfers are illustrative.</text>
+<text x="14" y="274" fill="#777777" stroke="none" font-size="2.25" text-anchor="start" font-weight="normal" transform="rotate(0 14 274)">hardware_spacer_m5_nylon_white_9_mm_outer_diameter_8_mm_depth</text>
+<text x="14" y="287" fill="#245b61" stroke="none" font-size="2.6" text-anchor="start" font-weight="normal" transform="rotate(0 14 287)">OOMLOUT</text>
+<text x="196" y="287" fill="#777777" stroke="none" font-size="2.4" text-anchor="end" font-weight="normal" transform="rotate(0 196 287)">SOURCES AND MODEL NOTES IN PART README</text>
+</g></svg>

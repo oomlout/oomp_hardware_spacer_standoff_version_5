@@ -15,7 +15,7 @@ families:
       help_text: Positive body depth. Saved to working_manual.yaml; regenerate to
         create the part.
   spacer_m4:
-    label: M4 round spacer / white nylon / 8 mm OD
+    label: M4 round spacer / white nylon / 7 mm OD
     description: Add another depth to this catalogue family.
     defaults:
       type_name: spacer
@@ -29,7 +29,7 @@ families:
       help_text: Positive body depth. Saved to working_manual.yaml; regenerate to
         create the part.
   spacer_m5:
-    label: M5 round spacer / white nylon / 10 mm OD
+    label: M5 round spacer / white nylon / 9 mm OD
     description: Add another depth to this catalogue family.
     defaults:
       type_name: spacer
@@ -43,7 +43,7 @@ families:
       help_text: Positive body depth. Saved to working_manual.yaml; regenerate to
         create the part.
   spacer_m6:
-    label: M6 round spacer / white nylon / 13 mm OD
+    label: M6 round spacer / white nylon / 11 mm OD
     description: Add another depth to this catalogue family.
     defaults:
       type_name: spacer

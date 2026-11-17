@@ -26,7 +26,7 @@ def series_definitions(**kwargs):
 
     m4 = {}
     m4["bore_mm"] = 4.3
-    m4["outer_diameter_mm"] = 8
+    m4["outer_diameter_mm"] = 7
     m4["depths"] = [
         3,
         5,
@@ -40,15 +40,14 @@ def series_definitions(**kwargs):
         30,
     ]
     m4["source_refs"] = [
-        "raf_m4_spacer",
-        "nyfast_m4_spacers",
-        "pencom_round_spacers",
+        "user_spacer_od_selection",
+        "pencom_spacer_bores_depths",
     ]
     series["m4"] = m4
 
     m5 = {}
     m5["bore_mm"] = 5.3
-    m5["outer_diameter_mm"] = 10
+    m5["outer_diameter_mm"] = 9
     m5["depths"] = [
         3,
         5,
@@ -62,15 +61,14 @@ def series_definitions(**kwargs):
         30,
     ]
     m5["source_refs"] = [
-        "lyntron_m5_spacers",
-        "boltbase_m5_spacers",
-        "pencom_round_spacers",
+        "user_spacer_od_selection",
+        "pencom_spacer_bores_depths",
     ]
     series["m5"] = m5
 
     m6 = {}
     m6["bore_mm"] = 6.4
-    m6["outer_diameter_mm"] = 13
+    m6["outer_diameter_mm"] = 11
     m6["depths"] = [
         3,
         5,
@@ -84,9 +82,8 @@ def series_definitions(**kwargs):
         30,
     ]
     m6["source_refs"] = [
-        "raf_m6_spacer",
-        "lyntron_m6_spacers",
-        "pencom_round_spacers",
+        "user_spacer_od_selection",
+        "pencom_spacer_bores_depths",
     ]
     series["m6"] = m6
     return series
@@ -130,6 +127,8 @@ def generate(**kwargs):
             option["threaded"] = False
             option["dimension_status"] = "Generic catalogue dimensions; not a manufacturer-specific drawing."
             option["dimension_note"] = f"{nominal_size.upper()} denotes screw compatibility; the plain clearance bore is {selected_bore:g} mm, not a thread."
+            if nominal_size != "m3":
+                option["dimension_note"] += " Outside diameter follows the user-specified catalogue series; supplier references support bore and depth choices only."
             option["source_refs"] = copy.deepcopy(dimensions["source_refs"])
             options.append(copy.deepcopy(option))
     return options

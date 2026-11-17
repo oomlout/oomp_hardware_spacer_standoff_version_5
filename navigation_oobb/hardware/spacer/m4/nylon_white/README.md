@@ -2,4 +2,4 @@
 
 [Catalogue overview](../../../../../README.md) | [Up](../README.md)
 
-- [8 mm outer diameter](8_mm_outer_diameter/README.md)
+- [7 mm outer diameter](7_mm_outer_diameter/README.md)

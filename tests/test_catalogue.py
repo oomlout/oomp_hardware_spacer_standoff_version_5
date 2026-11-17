@@ -152,7 +152,7 @@ def test_manual_connection_selects_only_the_requested_variant(tmp_path, monkeypa
     assert result[0]["overall_length_mm"] == 24
 
 
-@pytest.mark.parametrize("size,bore,outside", [("m4",4.3,8),("m5",5.3,10),("m6",6.4,13)])
+@pytest.mark.parametrize("size,bore,outside", [("m4",4.3,7),("m5",5.3,9),("m6",6.4,11)])
 def test_new_spacer_series_have_one_diameter_and_correct_drawing_labels(size,bore,outside):
     from working_spacer_drawing import drawing_svg
     from working_readme import title
@@ -186,7 +186,7 @@ def test_manual_spacer_size_is_preserved(tmp_path, monkeypatch):
     result = populate.main(filter="*_18_mm_depth")
     assert len(result) == 1
     assert result[0]["nominal_size"] == "m5"
-    assert result[0]["outer_diameter_mm"] == 10
+    assert result[0]["outer_diameter_mm"] == 9
     assert result[0]["bore_mm"] == 5.3
 
 
