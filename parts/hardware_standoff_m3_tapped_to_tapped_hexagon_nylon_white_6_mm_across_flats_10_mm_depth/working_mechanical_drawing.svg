@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297"><title>hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_10_mm_depth</title>
+<rect width="210" height="297" fill="white"/>
+<g font-family="DejaVu Sans" stroke="#1a1a1a" stroke-width="0.45" fill="none">
+<rect x="4" y="4" width="202" height="289" rx="3.5"/>
+<text x="14" y="15" fill="#777777" stroke="none" font-size="3.2" text-anchor="start" font-weight="normal" transform="rotate(0 14 15)">OOMLOUT / OOMP</text>
+<text x="196" y="15" fill="#777777" stroke="none" font-size="3.2" text-anchor="end" font-weight="normal" transform="rotate(0 196 15)">908100</text>
+<text x="14" y="47" fill="#1a1a1a" stroke="none" font-size="17" text-anchor="start" font-weight="bold" transform="rotate(0 14 47)">M3 x 10 mm</text>
+<text x="14" y="59" fill="#777777" stroke="none" font-size="4.5" text-anchor="start" font-weight="normal" transform="rotate(0 14 59)">HARDWARE / STANDOFF</text>
+<text x="14" y="70" fill="#777777" stroke="none" font-size="3.5" text-anchor="start" font-weight="normal" transform="rotate(0 14 70)">HEX STANDOFF / TAPPED TO TAPPED / WHITE NYLON</text>
+<line x1="14" y1="79" x2="196" y2="79" stroke-dasharray=""/>
+<text x="14" y="88" fill="#1a1a1a" stroke="none" font-size="5.2" text-anchor="start" font-weight="bold" transform="rotate(0 14 88)">DIMENSIONS</text>
+<text x="196" y="88" fill="#777777" stroke="none" font-size="3.2" text-anchor="end" font-weight="normal" transform="rotate(0 196 88)">6:1 / mm / PRINT AT 100%</text>
+<text x="54" y="101" fill="#777777" stroke="none" font-size="3.2" text-anchor="middle" font-weight="bold" transform="rotate(0 54 101)">END VIEW</text>
+<text x="151" y="101" fill="#777777" stroke="none" font-size="3.2" text-anchor="middle" font-weight="bold" transform="rotate(0 151 101)">SIDE VIEW</text>
+<polygon fill="#fafafa" points="54.0,173.78460969082653 36.0,163.39230484541326 36.0,142.60769515458674 53.99999999999999,132.21539030917347 72.0,142.60769515458674 72.0,163.39230484541326"/>
+<circle cx="54" cy="153" r="9.0" fill="white"/>
+<circle cx="54" cy="153" r="7.376202367904178" stroke-width="0.25"/>
+<rect x="130.21539030917347" y="123.0" width="41.569219381653056" height="60.0" fill="#fafafa"/>
+<line x1="140.60769515458674" y1="123.0" x2="140.60769515458674" y2="183.0" stroke-dasharray=""/>
+<line x1="161.39230484541326" y1="123.0" x2="161.39230484541326" y2="183.0" stroke-dasharray=""/>
+<line x1="142.0" y1="123.0" x2="142.0" y2="183.0" stroke-dasharray="2 1"/>
+<line x1="160.0" y1="123.0" x2="160.0" y2="183.0" stroke-dasharray="2 1"/>
+<g stroke="#999999" stroke-width="0.2">
+<line x1="29.215390309173472" y1="153" x2="78.78460969082653" y2="153" stroke-dasharray="5 1 1 1"/>
+<line x1="54" y1="128.21539030917347" x2="54" y2="177.78460969082653" stroke-dasharray="5 1 1 1"/>
+<line x1="151" y1="119.0" x2="151" y2="187.0" stroke-dasharray="5 1 1 1"/>
+</g>
+<line x1="36.0" y1="153" x2="36.0" y2="121.21539030917347" stroke-dasharray=""/>
+<line x1="72.0" y1="153" x2="72.0" y2="121.21539030917347" stroke-dasharray=""/>
+<line x1="36.0" y1="123.21539030917347" x2="72.0" y2="123.21539030917347" stroke-dasharray=""/><polygon fill="#1a1a1a" points="36.0,123.21539030917347 38.0,123.81539030917347 38.0,122.61539030917348"/><polygon fill="#1a1a1a" points="72.0,123.21539030917347 70.0,122.61539030917348 70.0,123.81539030917347"/><text x="54.0" y="120.21539030917347" fill="#1a1a1a" stroke="none" font-size="3.2" text-anchor="middle" font-weight="normal" transform="rotate(0 54.0 120.21539030917347)">A/F 6</text>
+<line x1="171.78460969082653" y1="123.0" x2="182.78460969082653" y2="123.0" stroke-dasharray=""/>
+<line x1="171.78460969082653" y1="183.0" x2="182.78460969082653" y2="183.0" stroke-dasharray=""/>
+<line x1="180.78460969082653" y1="123.0" x2="180.78460969082653" y2="183.0" stroke-dasharray=""/><polygon fill="#1a1a1a" points="180.78460969082653,123.0 180.18460969082653,125.0 181.38460969082652,125.0"/><polygon fill="#1a1a1a" points="180.78460969082653,183.0 181.38460969082652,181.0 180.18460969082653,181.0"/><text x="185.78460969082653" y="153.0" fill="#1a1a1a" stroke="none" font-size="3.2" text-anchor="middle" font-weight="normal" transform="rotate(-90 185.78460969082653 153.0)">DEPTH 10</text>
+<line x1="63.0" y1="153" x2="79.78460969082653" y2="183.78460969082653" stroke-dasharray=""/>
+<text x="54" y="191.78460969082653" fill="#1a1a1a" stroke="none" font-size="3.2" text-anchor="middle" font-weight="normal" transform="rotate(0 54 191.78460969082653)">M3 x 0.5 / TAPPED</text>
+<text x="151" y="211" fill="#777777" stroke="none" font-size="2.5" text-anchor="middle" font-weight="normal" transform="rotate(0 151 211)">HIDDEN BORE SHOWN DASHED</text>
+<line x1="14" y1="223" x2="196" y2="223" stroke-dasharray=""/>
+<text x="14" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 14 237)">M3 x 0.5</text>
+<text x="14" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 14 245)">THREAD</text>
+<text x="60" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 60 237)">6 mm</text>
+<text x="60" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 60 245)">ACROSS FLATS</text>
+<text x="106" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 106 237)">10 mm</text>
+<text x="106" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 106 245)">BODY DEPTH</text>
+<text x="152" y="237" fill="#1a1a1a" stroke="none" font-size="5" text-anchor="start" font-weight="bold" transform="rotate(0 152 237)">Nylon</text>
+<text x="152" y="245" fill="#777777" stroke="none" font-size="2.8" text-anchor="start" font-weight="normal" transform="rotate(0 152 245)">WHITE</text>
+<line x1="14" y1="253" x2="196" y2="253" stroke-dasharray=""/>
+<text x="14" y="261" fill="#777777" stroke="none" font-size="2.6" text-anchor="start" font-weight="normal" transform="rotate(0 14 261)">GENERIC CATALOGUE DIMENSIONS / NOT A MANUFACTURING DRAWING</text>
+<text x="14" y="267" fill="#1a1a1a" stroke="none" font-size="2.7" text-anchor="start" font-weight="normal" transform="rotate(0 14 267)">Through-thread model; supplier tapping depths vary.</text>
+<text x="14" y="274" fill="#777777" stroke="none" font-size="2.25" text-anchor="start" font-weight="normal" transform="rotate(0 14 274)">hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_10_mm_depth</text>
+<text x="14" y="287" fill="#245b61" stroke="none" font-size="2.6" text-anchor="start" font-weight="normal" transform="rotate(0 14 287)">OOMLOUT</text>
+<text x="196" y="287" fill="#777777" stroke="none" font-size="2.4" text-anchor="end" font-weight="normal" transform="rotate(0 196 287)">SOURCES AND MODEL NOTES IN PART README</text>
+</g></svg>
