@@ -1,8 +1,7 @@
 import copy
-import working_scad
 
 def main(**kwargs):
-    filter = ["food_baking_flour_white"]
+    filter = kwargs.get("filter", "*_10_mm_depth")
     kwargs["filter"] = filter
     kwargs["run_oomp_populate"] = True
 

@@ -1,21 +1,12 @@
-import copy
-import working_scad
+"""Build the catalogue without creating STL exports; retain existing STL files."""
 
 def main(**kwargs):
-    kwargs["run_oomp_populate"] = True
-
-    kwargs["run_oomp"] = True
-
-    kwargs["run_action"] = True
-    #kwargs["run_action"] = False
-
-    kwargs["run_scad"] = True
-
     kwargs["generate_stl"] = False
-
+    kwargs["export_stl"] = False
+    kwargs["run_solidcraft"] = False
     import working
-    working.run(**kwargs)
+    return working.main(**kwargs)
 
-if __name__ == '__main__':
-    kwargs = {}
-    main(**kwargs)
+
+if __name__ == "__main__":
+    main()

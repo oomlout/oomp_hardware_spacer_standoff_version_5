@@ -1,4 +1,10 @@
-# CAD type dispatch and per-part output selection
+# CAD routes
+
+## Active spacer/standoff catalogue
+
+These families use `working_scad.py` / `working_spacer_scad.py` for editable OpenSCAD, and `working_three_d_model.py` for STL/GLB and Blender renders. Both explicitly set `run_solidcraft=False`. `action_make_all.py` uses this route by default. See [README_GENERATOR.md](README_GENERATOR.md). The following sections document inherited optional OOBB/SolidCraft infrastructure for future native recipes; no native spacer/standoff or STEP output is currently implemented.
+
+# Inherited native CAD infrastructure
 
 ## SolidCraft startup and failures
 
@@ -24,7 +30,7 @@ SCAD outputs, part definitions, custom/manual files, sealed parts and build hist
 | `False` | Disable SolidCraft generation. |
 | `"working_scad"` | Generate native CAD from the `get_<oobb_type>` definitions in `working_scad.py`. |
 
-Both `action_make_all.py` and `action_make_solidcraft.py` now default to SCAD definitions as the SolidCraft source:
+`action_make_solidcraft.py` retains the scaffold default of SCAD definitions as the SolidCraft source for enabled native parts:
 
 ```python
 kwargs.setdefault("run_solidcraft", "working_scad")
@@ -32,7 +38,7 @@ kwargs.setdefault("run_solidcraft", "working_scad")
 
 You can also call `action_make_all.main(run_solidcraft="working_scad")`. This selects the shared source for every enabled part while preserving per-part `run_solidcraft=False`. `run_scad=False` only disables the separate SCAD output; it does not prevent native generation from SCAD definitions.
 
-For individual parts, set `option["run_solidcraft"] = "working_scad"` during population. With the ordinary project-wide `True` switch, each such part uses its SCAD recipe; other enabled parts retain their separate native recipes. An explicit project source override takes precedence over per-part source selection. The make-action default is `"working_scad"`. Pass `run_solidcraft=True` to use the independent native recipes, or `False` to disable SolidCraft.
+For individual parts, set `option["run_solidcraft"] = "working_scad"` during population. With the ordinary project-wide `True` switch, each such part uses its SCAD recipe; other enabled parts retain their separate native recipes. An explicit project source override takes precedence over per-part source selection. The dedicated native-action default is `"working_scad"`; the main catalogue build disables it. Pass `run_solidcraft=True` to use the independent native recipes, or `False` to disable SolidCraft.
 
 For direct generation without population or other actions:
 
