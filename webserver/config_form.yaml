@@ -1,30 +1,283 @@
-default_family: generic
-
+default_family: spacer
 families:
-  generic:
-    label: Hole cover entry
-    description: Record a manual hole cover option.
+  spacer:
+    label: M3 round spacer / white nylon / 7 mm OD
+    description: Add another depth to this catalogue family.
     defaults:
-      type_name: hole_cover
+      type_name: spacer
+      nominal_size: m3
     fields:
-      - name: diameter
-        label: Diameter
-        input_type: number
-        required: true
-        default: 40
-        placeholder: 40
-        help_text: Outer diameter in mm.
-      - name: depth
-        label: Depth
-        input_type: number
-        required: true
-        default: 15
-        placeholder: 15
-        help_text: Depth in mm.
-      - name: hole_top_diameter
-        label: Hole Top Diameter
-        input_type: number
-        required: true
-        default: 30
-        placeholder: 30
-        help_text: Top hole diameter in mm.
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Positive body depth. Saved to working_manual.yaml; regenerate to
+        create the part.
+  spacer_m4:
+    label: M4 round spacer / white nylon / 8 mm OD
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: spacer
+      nominal_size: m4
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Positive body depth. Saved to working_manual.yaml; regenerate to
+        create the part.
+  spacer_m5:
+    label: M5 round spacer / white nylon / 10 mm OD
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: spacer
+      nominal_size: m5
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Positive body depth. Saved to working_manual.yaml; regenerate to
+        create the part.
+  spacer_m6:
+    label: M6 round spacer / white nylon / 13 mm OD
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: spacer
+      nominal_size: m6
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Positive body depth. Saved to working_manual.yaml; regenerate to
+        create the part.
+  standoff_m2_5_tapped_to_tapped:
+    label: M2.5 tapped to tapped hex standoff / white nylon / 5 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: tapped_to_tapped
+      nominal_size: m2.5
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth in mm. Saved to working_manual.yaml; regenerate to create
+        the part.
+  standoff_m2_5_stud_to_tapped:
+    label: M2.5 stud to tapped hex standoff / white nylon / 5 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_tapped
+      nominal_size: m2.5
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 8 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_m2_5_stud_to_stud:
+    label: M2.5 stud to stud hex standoff / white nylon / 5 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_stud
+      nominal_size: m2.5
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 8 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_tapped_to_tapped:
+    label: M3 tapped to tapped hex standoff / white nylon / 6 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: tapped_to_tapped
+      nominal_size: m3
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth in mm. Saved to working_manual.yaml; regenerate to create
+        the part.
+  standoff_stud_to_tapped:
+    label: M3 stud to tapped hex standoff / white nylon / 6 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_tapped
+      nominal_size: m3
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 6 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_stud_to_stud:
+    label: M3 stud to stud hex standoff / white nylon / 6 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_stud
+      nominal_size: m3
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 6 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_m4_tapped_to_tapped:
+    label: M4 tapped to tapped hex standoff / white nylon / 7 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: tapped_to_tapped
+      nominal_size: m4
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth in mm. Saved to working_manual.yaml; regenerate to create
+        the part.
+  standoff_m4_stud_to_tapped:
+    label: M4 stud to tapped hex standoff / white nylon / 7 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_tapped
+      nominal_size: m4
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 6 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_m4_stud_to_stud:
+    label: M4 stud to stud hex standoff / white nylon / 7 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_stud
+      nominal_size: m4
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 6 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_m5_tapped_to_tapped:
+    label: M5 tapped to tapped hex standoff / white nylon / 10 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: tapped_to_tapped
+      nominal_size: m5
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth in mm. Saved to working_manual.yaml; regenerate to create
+        the part.
+  standoff_m5_stud_to_tapped:
+    label: M5 stud to tapped hex standoff / white nylon / 10 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_tapped
+      nominal_size: m5
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 8 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_m5_stud_to_stud:
+    label: M5 stud to stud hex standoff / white nylon / 10 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_stud
+      nominal_size: m5
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 8 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_m6_tapped_to_tapped:
+    label: M6 tapped to tapped hex standoff / white nylon / 10 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: tapped_to_tapped
+      nominal_size: m6
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth in mm. Saved to working_manual.yaml; regenerate to create
+        the part.
+  standoff_m6_stud_to_tapped:
+    label: M6 stud to tapped hex standoff / white nylon / 10 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_tapped
+      nominal_size: m6
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 10 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.
+  standoff_m6_stud_to_stud:
+    label: M6 stud to stud hex standoff / white nylon / 10 mm A/F
+    description: Add another depth to this catalogue family.
+    defaults:
+      type_name: standoff
+      connection_type: stud_to_stud
+      nominal_size: m6
+    fields:
+    - name: depth_mm
+      label: Body depth (mm)
+      input_type: number
+      required: true
+      default: 10
+      help_text: Body depth excludes the 10 mm studs. Saved to working_manual.yaml;
+        regenerate to create the part.

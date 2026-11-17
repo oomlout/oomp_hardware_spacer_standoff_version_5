@@ -1,0 +1,148 @@
+checked: '2026-11-16'
+sources:
+  soundtronics_spacers:
+    title: Soundtronics clearance spacer catalogue
+    url: https://www.soundtronics.co.uk/fixings-and-hardware/
+    supports: Lists 3.2 mm bore, 7 mm OD nylon spacers at 3, 5 and 8 mm depths.
+    limits: Supports this bore/OD combination, not every depth or a certified white
+      nylon grade.
+  siqma_spacer_10:
+    title: Siqma 10 mm unthreaded nylon spacer
+    url: https://store.siqma.com/plastic-10mm-unthreaded-nylon-spacer-abs.html
+    supports: Product search listing describes 10 mm length, 7 mm OD and 3.2 mm ID.
+    limits: Listing is dimensional context only; no manufacturer tolerance or grade
+      is adopted.
+  vxb_spacer_depths:
+    title: VXB M3 round spacer assortment
+    url: https://vxb.com/products/dope-250-pack-black-nylon-round-spacer-set-3mm-id
+    supports: Lists common 7 mm OD spacer depths including 3, 6, 8, 10, 12 and 15
+      mm.
+    limits: This source is black nylon with a stated 3 mm bore; it supports depth
+      selection only, not this catalogue's white finish or 3.2 mm bore.
+  cqrobot_white_standoffs:
+    title: CQRobot white nylon M3 tapped-to-tapped hex standoffs
+    url: https://cqrobot.com/product/PZSJGJ023
+    supports: White nylon M3 tapped-to-tapped family with 6, 10, 15, 20 and 30 mm
+      options.
+    limits: Does not establish tapping depth or the across-flats value used here.
+  lyntron_hex_standoffs:
+    title: Lyn-Tron metric tapped-to-tapped hex standoffs
+    url: https://www.lyntron.com/female-female-standoff?outsideDiameter%5B%5D=6.0&profile%5B%5D=hexagon&showMore=true&unitOfMeasurement%5B%5D=metric
+    supports: Includes nylon 6 mm hex tapped-to-tapped hardware and M3 x 0.5 threads.
+    limits: Generic family evidence, not a claim that every selected depth is an exact
+      matched SKU.
+  wurth_standoff_6:
+    title: Wurth 970060365 dimensional sheet
+    url: https://www.we-online.com/components/products/datasheet/970060365.pdf
+    supports: M3 tapped-to-tapped geometry, 6 mm across flats and 6 mm body depth.
+    limits: Black polyamide example; used for dimensional context, not white material
+      identity.
+  wurth_standoff_30:
+    title: Wurth 970300365 dimensional sheet
+    url: https://www.we-online.com/components/products/datasheet/970300365.pdf
+    supports: 30 mm M3 tapped-to-tapped example, 6 mm across flats, with 10 mm tapping
+      at each end.
+    limits: Demonstrates why a generic continuous through-thread model must not imply
+      a supplier's tapping depth.
+  lyntron_stud_tapped:
+    title: Lyn-Tron NY5172-06.0-00 nylon M3 stud-to-tapped standoff
+    url: https://www.lyntron.com/6.0mm-nylon-hexagon-male-female-standoff-unplated/pn/NY5172-06.0-00
+    supports: Nylon M3 x 0.5 stud-to-tapped construction, 6 mm hex body width and
+      6 mm body depth.
+    limits: Family and body geometry evidence; the catalogue does not adopt a supplier-specific
+      tapping depth or match every length.
+  rs_stud_tapped:
+    title: RS PRO 6539504 nylon M3 stud-to-tapped standoff
+    url: https://us.rs-online.com/tools-hardware/hardware/standoff/?pg=318
+    supports: Lists nylon M3 stud-to-tapped hardware with a 6 mm stud, in a 9 mm body
+      example.
+    limits: Supports the stud-length choice only; not an exact SKU for the selected
+      white nylon depth range.
+  essentra_stud_stud:
+    title: Essentra threaded and non-threaded spacers catalogue, page 179
+    url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7180/2082_Essentra_Component_Catalog.pdf
+    supports: MTNSP-M3 stud-to-stud entries list 6 mm body diameter and 6 mm studs,
+      including 8, 10 and 12 mm bodies.
+    limits: These are nylon bodies with brass inserts, not the all-nylon model here.
+      Supports connection layout and nominal dimensions only; the all-nylon finish
+      and full matching depth range are explicit catalogue extensions.
+  raf_m4_spacer:
+    title: RAF M0605-4-N standard nylon round spacer
+    url: https://www.mwcomponents.com/shop/m0605-4-n
+    supports: Manufacturer specifies an 8 mm OD and 4.3 mm ID nylon spacer.
+    limits: 16 mm example supports the section dimensions; the catalogue selects its
+      own common depth subset.
+  nyfast_m4_spacers:
+    title: Nyfast M4 metric nylon spacer series
+    url: https://nyfast.com/metric-nylon-spacers/10529-special-metric-nylon-spacers-M4
+    supports: Lists an M4 series with 8 mm OD and 4.3 mm bore across multiple metric
+      lengths.
+    limits: No supplier tolerance or grade is assigned to the generic model.
+  lyntron_m5_spacers:
+    title: Lyn-Tron 10 mm OD metric round spacer series
+    url: https://www.lyntron.com/spacer?outsideDiameter%5B0%5D=10.0&profile%5B0%5D=round&showMore=true&unitOfMeasurement%5B0%5D=metric
+    supports: Lists nylon M5 spacers with 10 mm OD and a 5.17-5.43 mm clearance-hole
+      range.
+    limits: The model uses a nominal 5.3 mm bore; this is not an exact supplier tolerance
+      model.
+  boltbase_m5_spacers:
+    title: Bolt Base white nylon M5 spacer series
+    url: https://boltbase.com/products/m5-x-10mm-od-white-nylon-plastic-spacers
+    supports: White/natural nylon M5 spacers with a 10 mm OD.
+    limits: The listing calls the hole 5 mm; used for OD and colour evidence, not
+      the model clearance bore.
+  raf_m6_spacer:
+    title: RAF M0711-6-N standard nylon round spacer
+    url: https://www.mwcomponents.com/shop/m0711-6-n
+    supports: Manufacturer specifies a 13 mm OD and 6.4 mm ID nylon spacer.
+    limits: 2 mm example supports the section dimensions; this catalogue selects longer
+      common body depths.
+  lyntron_m6_spacers:
+    title: Lyn-Tron 13 mm OD metric round spacer series
+    url: https://www.lyntron.com/spacer?outsideDiameter%5B%5D=13.0&profile%5B%5D=round&showMore=true&unitOfMeasurement%5B%5D=metric
+    supports: Lists nylon M6 spacers with 13 mm OD across a broad metric depth range.
+    limits: Its hole range is 6.17-6.43 mm; this catalogue uses the RAF-style nominal
+      6.4 mm bore.
+  pencom_round_spacers:
+    title: Pencom RSP metric round spacer catalogue
+    url: https://www.pencomsf.com/site/assets/product-catalogs/spacers/rsp-round-spacers-catalog.pdf
+    supports: Pages 11-13 document the 8, 10 and 13 mm OD series, 4.3/5.3/6.4 mm clearance
+      bores, nylon material options, and every selected 3-30 mm body depth.
+    limits: Used as cross-manufacturer catalogue context; no tolerance, nylon grade
+      or matched supplier SKU is claimed.
+  vital_standoff_m2_5_m5:
+    title: Vital Parts natural nylon hex standoff family
+    url: https://www.vital-parts.co.uk/threaded-hex-standoffs-male-female/54853-hmf-m25-8-s5-ny-n
+    checked: '2026-11-17'
+    supports: Lists M2.5 with 5 mm flats, an 8 mm stud and 6 mm tapping at 8 mm body
+      depth; the related-product table lists M5 with 10 mm flats, an 8 mm stud and
+      10 mm tapping at 35 mm body depth.
+    limits: Supports these body-width/stud choices and natural nylon finish. The common
+      depth range, through-tapped version and two-stud version here are generic catalogue
+      extensions, not matched SKUs.
+  rs_standoff_m4:
+    title: RS PRO fasteners guide, page 53
+    url: https://docs.rs-online.com/9cce/0900766b816a3a63.pdf
+    checked: '2026-11-17'
+    supports: Lists nylon M4 hex standoffs with 7 mm flats and 6 mm studs; the 10
+      mm body example has 6.5 mm tapping, while longer examples have 10 mm tapping.
+    limits: The model uses a nominal 6.5 mm blind cavity capped at body depth minus
+      1 mm. It does not reproduce supplier-specific tapping for every length or establish
+      every white/two-stud SKU.
+  hstronic_standoff_m6:
+    title: HStronic 21300673 polyamide M6 hex standoff
+    url: https://www.hstronic-gmbh.de/mediafiles/Sonstiges/Datenblatt/21300673.pdf
+    checked: '2026-11-17'
+    supports: Specifies M6, 10 mm flats, 30 mm body, 10 mm external stud and 10 mm
+      tapping in polyamide 6.6.
+    limits: The other body depths, through-tapped construction, two-stud variant and
+      requested white appearance are generic catalogue choices; no exact SKU or tolerance
+      is claimed.
+  pencom_metric_standoff_threads:
+    title: Pencom metric hex standoff thread tables
+    url: https://www.pencomsf.com/site/assets/product-catalogs/standoffs/hmf-hex-male-female-standoffs-catalog.pdf
+    checked: '2026-11-17'
+    supports: Documents metric standoff thread pitches M2.5 x 0.45, M4 x 0.7, M5 x
+      0.8 and M6 x 1.0.
+    limits: Used for thread-pitch evidence only; body flats, studs and tapping depths
+      follow the separately cited nylon examples.

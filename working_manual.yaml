@@ -1,0 +1,8 @@
+# Optional additional depths, also written by the local browser's Add form.
+# Existing declarations with the same ID are deduplicated.
+# options:
+#   - type_name: spacer
+#     depth_mm: 20
+#   - type_name: standoff
+#     depth_mm: 35
+options: []

@@ -1,0 +1,791 @@
+{
+  "parts_checked": 157,
+  "parts": [
+    {
+      "id": "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 303.4716279088121
+    },
+    {
+      "id": "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 364.3122354416575
+    },
+    {
+      "id": "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 455.5731467409255
+    },
+    {
+      "id": "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_3_mm_depth",
+      "status": "passed",
+      "volume_mm3": 90.5295012943602
+    },
+    {
+      "id": "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_5_mm_depth",
+      "status": "passed",
+      "volume_mm3": 151.3701090766987
+    },
+    {
+      "id": "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 181.79041284312132
+    },
+    {
+      "id": "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 242.63102037596664
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 356.2648160726885
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 427.70072877484716
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 534.8545978280853
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 713.4443768334695
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 892.0341585888664
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1070.623940344263
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_3_mm_depth",
+      "status": "passed",
+      "volume_mm3": 106.23912128330703
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_5_mm_depth",
+      "status": "passed",
+      "volume_mm3": 177.67503431729156
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 213.39299066837097
+    },
+    {
+      "id": "hardware_spacer_m4_nylon_white_8_mm_outer_diameter_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 284.82890337052964
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 563.2459409386964
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 676.1212760454822
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 845.4342787056609
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1127.6226130639507
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1409.810950830915
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1691.9992885978797
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_3_mm_depth",
+      "status": "passed",
+      "volume_mm3": 168.1822676582723
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_5_mm_depth",
+      "status": "passed",
+      "volume_mm3": 281.0576031717319
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 337.4952707251248
+    },
+    {
+      "id": "hardware_spacer_m5_nylon_white_10_mm_outer_diameter_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 450.37060583191055
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1003.5015358803929
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1204.4827402942171
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1505.9545469149532
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2008.4075536726014
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2510.8605647071618
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 3013.3135757417217
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_3_mm_depth",
+      "status": "passed",
+      "volume_mm3": 300.067319943002
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_5_mm_depth",
+      "status": "passed",
+      "volume_mm3": 501.0485248458328
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 601.5391270527447
+    },
+    {
+      "id": "hardware_spacer_m6_nylon_white_13_mm_outer_diameter_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 802.5203314665687
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 277.45274476870037
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 320.7540234788835
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 385.7059285453656
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 493.9591068655431
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 602.2122694291406
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 710.4654532171171
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 190.85021337599758
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_stud_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 234.15148754727488
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 222.9186075409767
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 266.21987508687295
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 331.1717801585002
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 439.4249416379702
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 547.6781319009161
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 655.9313045209673
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 140.23035800117535
+    },
+    {
+      "id": "hardware_standoff_m2_5_stud_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 179.6173223484834
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 176.2130711184952
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 211.68573957973874
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 264.89476430251267
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 353.5764740102226
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 442.25828203853047
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 530.9399251144595
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 105.26769176158608
+    },
+    {
+      "id": "hardware_standoff_m2_5_tapped_to_tapped_hexagon_nylon_white_5_mm_across_flats_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 140.74036605586574
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 378.5569495397961
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 440.9107783313598
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 534.4415215187053
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 690.3260923807671
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 846.2106643596759
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1002.095236338585
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 253.84929195666902
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_stud_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 316.2031207482326
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 310.014168551161
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 372.36799734272466
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 465.89874053007
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 621.7833112643108
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 777.6678832432195
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 933.5524552221286
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 191.04048395562907
+    },
+    {
+      "id": "hardware_standoff_m3_stud_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 247.66033975819917
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 252.93933351156377
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 303.8252163251405
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 380.15404054550555
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 507.36874633477925
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 634.583453368721
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 761.7981604026627
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 151.16756788301214
+    },
+    {
+      "id": "hardware_standoff_m3_tapped_to_tapped_hexagon_nylon_white_6_mm_across_flats_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 202.0534506965889
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 541.7599223757414
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 626.6303309269364
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 753.93615299435
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 966.1122704985069
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1178.2885585805122
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1390.464831205428
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 372.01884676869673
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_stud_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 456.8894403981363
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 416.2154893689435
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 501.0858970878724
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 628.3917217698005
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 840.5678209082672
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1052.7441239595144
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1264.9203971587956
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 261.60225074202594
+    },
+    {
+      "id": "hardware_standoff_m4_stud_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 331.3450092836284
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 320.9267719296336
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 385.6267227597243
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 482.6769210384029
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 644.4268237087873
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 806.1770630927628
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 967.9272899474989
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 191.52664524782168
+    },
+    {
+      "id": "hardware_standoff_m4_tapped_to_tapped_hexagon_nylon_white_7_mm_across_flats_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 256.2267357715648
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1117.1056464933354
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1290.310726697634
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1550.1183470040821
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1983.1310456438368
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2416.143746410746
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2849.1564469214936
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 770.695485767291
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 943.9005659715899
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 845.1093224157785
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1002.2500801876121
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1262.0577004940596
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1695.0703996562195
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2128.0831001669662
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2561.0958006777128
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 562.956451853855
+    },
+    {
+      "id": "hardware_standoff_m5_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 704.0328871932226
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 701.6275782831368
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 842.7040136225041
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1054.3186666315557
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1407.0097536313872
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1759.700841979806
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2112.391930328225
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 419.4747077212133
+    },
+    {
+      "id": "hardware_standoff_m5_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 560.5511430605808
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1314.8824956699934
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1488.087575874292
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1747.89519618074
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2180.9078948204956
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2613.9205953312426
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 3046.9332958419895
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 968.472335261396
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_stud_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1141.6774154656948
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 881.2118165685902
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1031.4810048169152
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1291.2886251233633
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1724.3013232730784
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2157.314023783825
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 2590.326724294572
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 626.5452240384616
+    },
+    {
+      "id": "hardware_standoff_m6_stud_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_stud_length_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 753.878520330813
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_10_mm_depth",
+      "status": "passed",
+      "volume_mm3": 631.0282730563678
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_12_mm_depth",
+      "status": "passed",
+      "volume_mm3": 758.361569348719
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_15_mm_depth",
+      "status": "passed",
+      "volume_mm3": 949.361513787246
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_20_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1267.6947521570921
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_25_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1586.0279928879706
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_30_mm_depth",
+      "status": "passed",
+      "volume_mm3": 1904.361233618849
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_6_mm_depth",
+      "status": "passed",
+      "volume_mm3": 376.3616805262395
+    },
+    {
+      "id": "hardware_standoff_m6_tapped_to_tapped_hexagon_nylon_white_10_mm_across_flats_8_mm_depth",
+      "status": "passed",
+      "volume_mm3": 503.69497681859076
+    }
+  ],
+  "failures": []
+}

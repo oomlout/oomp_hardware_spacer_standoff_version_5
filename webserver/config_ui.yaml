@@ -1,37 +1,27 @@
 preview_priority:
-  - initial_generated_chibi.png
-  - initial_generated_icon.png
-  - image.jpg
-  - image.jpeg
-  - image.png
-  - 3dpr.png
-  - 3dpr.jpg
-  - 3dpr.webp
-  - label_oomp.svg
-  - 3dpr.svg
-  - "*.png"
-  - "*.svg"
-  - "*.jpg"
-  - "*.jpeg"
-  - "*.webp"
-  - "*.gif"
+- image.png
+- three_d_model/readme_isometric.png
+- working_mechanical_drawing.png
+- label_oomp.svg
+- '*.png'
+- '*.svg'
 manual_fields:
-  - name: content
-    label: Content
-    help_text: Single value.
-  - name: taxonomy
-    label: Taxonomy
-    help_text: Single value.
+- name: content
+  label: Content
+  help_text: Single value.
+- name: taxonomy
+  label: Taxonomy
+  help_text: Single value.
 search_fields:
   available:
-    - name: id
-      label: ID
-    - name: taxonomy
-      label: Taxonomy
-    - name: content
-      label: Content
+  - name: id
+    label: ID
+  - name: taxonomy
+    label: Taxonomy
+  - name: content
+    label: Content
   default_selected:
-    - id
+  - id
 image_serving:
   enabled: true
   cache_dir: auto

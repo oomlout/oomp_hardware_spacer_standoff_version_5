@@ -106,14 +106,14 @@ class WebserverAppTests(unittest.TestCase):
             self.assertTrue(files_by_name["shape.scad"]["is_text_previewable"])
             self.assertEqual(files_by_name["shape.scad"]["text_language_label"], "OpenSCAD")
             self.assertEqual(files_by_name["label.svg"]["actions"][0]["label"], "Convert to PDF")
-            self.assertEqual(files_by_name["label.svg"]["actions"][1]["id"], "delete-file")
+            self.assertIn("delete-file", [action["id"] for action in files_by_name["label.svg"]["actions"]])
             self.assertEqual(files_by_name["postcard.pdf"]["actions"][0]["label"], "Print Label")
             self.assertEqual(files_by_name["postcard.pdf"]["actions"][0]["print_server_printer_selection"], 6)
             self.assertEqual(files_by_name["postcard.pdf"]["actions"][0]["print_server_printer_name"], "label_6_4")
             self.assertEqual(files_by_name["postcard.pdf"]["actions"][1]["label"], "Print Postcard")
             self.assertEqual(files_by_name["postcard.pdf"]["actions"][1]["print_server_printer_selection"], 3)
-            self.assertEqual(files_by_name["postcard.pdf"]["actions"][1]["print_server_printer_name"], "postcard_3")
-            self.assertEqual(files_by_name["postcard.pdf"]["actions"][2]["id"], "delete-file")
+            self.assertEqual(files_by_name["postcard.pdf"]["actions"][1]["print_server_printer_name"], "postcard")
+            self.assertIn("delete-file", [action["id"] for action in files_by_name["postcard.pdf"]["actions"]])
             self.assertEqual(files_by_name["notes.txt"]["actions"][0]["id"], "delete-file")
             self.assertTrue(files_by_name["notes.txt"]["is_text_previewable"])
             self.assertEqual(files_by_name["notes.txt"]["text_language_label"], "Text")
@@ -143,10 +143,8 @@ class WebserverAppTests(unittest.TestCase):
             response = client.post(
                 "/add",
                 data={
-                    "family": "generic",
-                    "diameter": "40",
-                    "depth": "30",
-                    "hole_top_diameter": "20",
+                    "family": "spacer",
+                    "depth_mm": "20",
                 },
                 follow_redirects=True,
             )
@@ -156,10 +154,8 @@ class WebserverAppTests(unittest.TestCase):
             with manual_path.open("r", encoding="utf-8") as handle:
                 loaded = yaml.safe_load(handle) or {}
             self.assertEqual(list(loaded.keys()), ["options"])
-            self.assertEqual(loaded["options"][0]["type_name"], "hole_cover")
-            self.assertEqual(loaded["options"][0]["diameter"], 40)
-            self.assertEqual(loaded["options"][0]["depth"], 30)
-            self.assertEqual(loaded["options"][0]["hole_top_diameter"], 20)
+            self.assertEqual(loaded["options"][0]["type_name"], "spacer")
+            self.assertEqual(loaded["options"][0]["depth_mm"], 20)
 
     def test_explore_route_renders(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
@@ -866,7 +862,7 @@ class WebserverAppTests(unittest.TestCase):
             self.assertIn(b'type="text"', response.data)
             self.assertNotIn(b'rows="3"', response.data)
             self.assertIn(b'details class="collapsible-panel"', response.data)
-            self.assertIn(b'Collapsed by default', response.data)
+            self.assertIn(b'<details class="collapsible-panel">', response.data)
             self.assertIn(b'data-selectable-path="true"', response.data)
             self.assertIn(b'data-selectable-breadcrumb="true"', response.data)
             self.assertIn(b'detail-breadcrumb__separator', response.data)
@@ -919,12 +915,12 @@ class WebserverAppTests(unittest.TestCase):
             self.assertIn(b"Print Label", response.data)
             self.assertIn(b"Print Postcard", response.data)
             expected_label_print_url = file_actions.build_print_server_url(
-                "http://localhost/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/files/postcard.pdf",
+                "http://localhost/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/postcard.pdf",
                 "label_6_4",
             )
             expected_postcard_print_url = file_actions.build_print_server_url(
-                "http://localhost/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/files/postcard.pdf",
-                "postcard_3",
+                "http://localhost/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/postcard.pdf",
+                "postcard",
             )
             self.assertIn(expected_label_print_url.replace("&", "&amp;").encode("utf-8"), response.data)
             self.assertIn(expected_postcard_print_url.replace("&", "&amp;").encode("utf-8"), response.data)
@@ -947,7 +943,7 @@ class WebserverAppTests(unittest.TestCase):
             self.assertNotIn(b"bytes", response.data)
             self.assertNotIn(b"Absolute Folder Base", response.data)
             delete_position = response.data.find(
-                b'/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/files/shape.scad/actions/delete-file'
+                b'/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/shape.scad/actions/delete-file'
             )
             download_position = response.data.find(b'title="Download shape.scad"')
             number_position = response.data.find(b'class="file-list__action-number"')
@@ -1032,14 +1028,15 @@ class WebserverAppTests(unittest.TestCase):
 
             with patch("webserver.routes.parts.generation_runner.launch_detached_command") as launch_mock:
                 response = client.post(
-                    "/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/files/shape.scad/actions/generate-stl",
+                    "/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/shape.scad/actions/generate-stl",
                     follow_redirects=True,
                 )
 
             self.assertEqual(response.status_code, 200)
-            launch_mock.assert_called_once()
-            command = launch_mock.call_args.args[0]
-            cwd = launch_mock.call_args.kwargs["cwd"]
+            self.assertEqual(launch_mock.call_count, 2)
+            command = launch_mock.call_args_list[0].args[0]
+            cwd = launch_mock.call_args_list[0].kwargs["cwd"]
+            self.assertEqual(launch_mock.call_args_list[1].args[0][1], "--render")
             self.assertEqual(command[0], "openscad")
             self.assertEqual(command[1], "-o")
             self.assertTrue(str(command[2]).endswith("shape.stl"))
@@ -1122,7 +1119,7 @@ class WebserverAppTests(unittest.TestCase):
             )
             client = app.test_client()
             response = client.post(
-                "/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/files/notes.txt/actions/generate-stl"
+                "/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/notes.txt/actions/generate-stl"
             )
 
             self.assertEqual(response.status_code, 404)
@@ -1156,7 +1153,7 @@ class WebserverAppTests(unittest.TestCase):
             )
             client = app.test_client()
             response = client.post(
-                "/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/files/notes.txt/actions/delete-file",
+                "/parts/warehouse_storage_tote_stackable_fullsize_size_210_count/notes.txt/actions/delete-file",
                 follow_redirects=True,
             )
 

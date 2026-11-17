@@ -1,17 +1,14 @@
-import working_oomp_populate
+"""Optional per-ID notes; edit this file to add source-specific details."""
+from oomp_populate_helper import build_oomp_id
+
 
 def main(**kwargs):
     extras = kwargs.get("extras", [])
     extras_dict = {}
     for extra in extras:
-        oomp_id =  working_oomp_populate.build_oomp_id(extra)
-        extras_dict[oomp_id] = extra
+        extras_dict[build_oomp_id(extra)] = extra
 
-    ######add notes here
-    current = "warehouse_storage_kallax_front_room_location_d_column_3_row"
-    if False:
-        extras_dict[current]["content_taxonomy_1"] = "three_d_print"
-        extras_dict[current]["content_taxonomy_2"] = "filament"
-        extras_dict[current]["content_taxonomy_3"] = "empty_spool"
-        extras_dict[current]["content_id"] = "three_d_print_filament_empty_spool"
-    
+    # Example: add a note without changing the geometric declaration.
+    # part_id = "hardware_spacer_m3_nylon_white_7_mm_outer_diameter_10_mm_depth"
+    # if part_id in extras_dict:
+    #     extras_dict[part_id]["notes"] = "Your manually maintained note."
